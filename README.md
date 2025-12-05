@@ -23,7 +23,8 @@ This repository is a minimal Quarto workspace with:
 ## Demo Content
 
 - The Introduction demonstrates a full CARS-style narrative with inline and grouped citations.
-- The Methods, Results, and Discussion modules illustrate how to answer structured clinical-writing prompts using reproducible text.
+- The Methods, Results, and Discussion modules provide structured bullet-point prompts you can replace with study-specific prose.
+- Each section currently contains placeholders for key data (design choices, numerical results, interpretations); swap them out with your manuscript content when ready.
 - `references.bib` ships with four sample entries that correspond to the cite keys used in `index.qmd`.
 - Use this setup to test the helper script before swapping in your own text and bibliography.
 

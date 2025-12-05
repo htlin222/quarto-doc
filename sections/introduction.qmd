@@ -1,13 +1,16 @@
 # Introduction
 
 ## Establishing Territory
-
-Type 2 diabetes mellitus (T2DM) now affects an estimated 537 million adults worldwide and remains a leading cause of blindness, kidney failure, and non-traumatic lower-limb amputation, imposing substantial personal and societal burdens [@smith2023]. Metformin continues to be the recommended first-line pharmacotherapy, yet real-world registries indicate that up to one-third of patients discontinue the drug because of intolerance, leaving a large subgroup without effective control [@lee2022]. Prior trials have demonstrated that intensifying therapy can reduce HbA1c by 1–2%, but durable options for metformin-intolerant patients are limited [@smith2023].
+- Summarize the public health burden of type 2 diabetes (e.g., global prevalence ≈537 million adults) and its major complications such as blindness, kidney failure, and amputations.
+- Highlight current standards of care (metformin first-line) and real-world limitations, citing key sources like [@smith2023] or [@lee2022].
+- Emphasize why metformin-intolerant patients represent a clinically important subgroup.
 
 ## Establishing a Niche
-
-However, the available evidence base has notable constraints: most randomized trials have lasted fewer than 12 months, frequently excluded patients with comorbid chronic kidney disease, and seldom examined Asian populations with distinct metabolic characteristics [@chen2021]. Nevertheless, clinicians still face daily decisions for metformin-intolerant patients, and the absence of data comparing Drug A with placebo under modern standards leaves a critical knowledge gap. Despite iterative guideline updates, the optimal strategy for patients who cannot tolerate metformin remains unclear, particularly regarding balancing glycemic efficacy with tolerability.
+- Use contrast language (e.g., "However" or "Despite this") to describe gaps in existing trials (short duration, exclusion of renal impairment, scarcity of Asian cohorts) with supporting literature such as [@chen2021].
+- State the unresolved clinical question (e.g., lack of Drug A vs placebo data for metformin-intolerant patients).
+- Clarify why this knowledge gap limits guideline development and day-to-day care.
 
 ## Occupying the Niche
-
-The aim of this study was to evaluate the efficacy and safety of Drug A compared with placebo among metformin-intolerant Asian adults with T2DM. We hypothesized that Drug A would lower HbA1c by at least 0.5% more than placebo over 12 weeks, while maintaining an acceptable safety profile. By addressing the unmet needs of this difficult-to-treat population, the study seeks to provide clinicians with evidence to guide individualized therapy and inform future guideline recommendations.
+- Introduce the study aim with a sentence like "The aim of this study was to..." covering population, intervention, comparator, and timeframe.
+- Mention any prespecified hypothesis (e.g., Drug A would lower HbA1c ≥0.5% more than placebo) and anticipated safety profile.
+- Close with the anticipated significance for clinicians, policy makers, or future research communities, optionally referencing digital workflow advantages described in [@garcia2020].

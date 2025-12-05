@@ -1,11 +1,11 @@
 # Abstract
 
-**Background:** Type 2 diabetes mellitus (T2DM) is a major global health problem, and treatment options for patients who cannot tolerate metformin remain limited despite ongoing therapeutic advances. The high burden of complications underscores the need for alternative approaches that deliver clinically meaningful HbA1c reductions without compromising safety.
+**Background:** 2–3 sentences summarizing the disease burden (e.g., T2DM prevalence, metformin intolerance) and knowledge gap that motivates this study.
 
-**Objective:** To evaluate the efficacy and safety of Drug A compared with placebo in metformin-intolerant Asian adults with T2DM.
+**Objective:** One sentence stating the purpose (e.g., "To evaluate the efficacy and safety of Drug A versus placebo in metformin-intolerant Asian adults with type 2 diabetes").
 
-**Methods:** In this randomized, double-blind, placebo-controlled trial conducted at Taipei Endocrine Research Hospital, 150 adults with metformin intolerance were assigned to Drug A 500 mg twice daily or matching placebo for 12 weeks. Randomization used computer-generated sequences with concealed allocation, and all investigators and participants were blinded. The primary endpoint was change in HbA1c from baseline to week 12. Secondary endpoints included fasting plasma glucose (FPG), body weight, blood pressure, responder rates, and adverse events. Outcomes were measured at baseline and weeks 4, 8, and 12. Analyses followed the intention-to-treat principle using analysis of covariance for the primary endpoint and mixed-effects models for repeated measures.
+**Methods:** 3–4 sentences describing the design (e.g., randomized, double-blind, placebo-controlled), sample size, intervention doses, control strategy, study duration, primary endpoint (HbA1c change), secondary endpoints, and analytic approach (ANCOVA, mixed-effects models). Mention measurement time points and adherence to the intention-to-treat principle.
 
-**Results:** Of 200 screened individuals, 150 were randomized (75 per group) and 142 completed follow-up. Drug A reduced HbA1c by −1.2 ± 0.5% versus −0.3 ± 0.4% with placebo, yielding an adjusted difference of −0.9% (95% CI, −1.1 to −0.7; p < 0.001). Drug A also improved FPG (−32 ± 15 vs −8 ± 14 mg/dL; p < 0.001), body weight (−2.1 ± 1.4 vs −0.5 ± 1.2 kg; p < 0.001), and systolic blood pressure (−4.6 ± 6.8 vs −1.2 ± 7.0 mm Hg; p = 0.02). Hypoglycemia occurred in 12% versus 4% of participants, and no serious adverse events were reported.
+**Results:** 3–4 sentences inserting key quantitative findings for the primary endpoint (mean change, SD, between-group difference, 95% CI, p value, effect size), secondary endpoints (fasting glucose, weight, BP, responder rates), and safety events (hypoglycemia incidence, serious adverse events). Reference associated tables or figures if helpful.
 
-**Conclusions:** Drug A safely and effectively improved glycemic control and cardiometabolic markers over 12 weeks in metformin-intolerant Asian adults with T2DM. These findings highlight Drug A as a promising therapeutic option for a population with limited evidence-based alternatives.
+**Conclusions:** 1–2 sentences providing the clinical implication (e.g., Drug A offers a viable alternative for metformin-intolerant patients) and broader significance.

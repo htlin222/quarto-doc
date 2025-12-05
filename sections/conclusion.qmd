@@ -1,11 +1,11 @@
 # Conclusion
 
-Drug A lowered HbA1c, fasting glucose, body weight, and blood pressure more than placebo while preserving an acceptable safety profile in metformin-intolerant Asian adults with type 2 diabetes. Embedding citation validation and modular authoring into the workflow ensures that subsequent manuscript iterations remain reproducible and ready for dissemination across Quarto outputs.
+- Write a final paragraph distilling the primary efficacy and safety takeaways (e.g., "Drug A lowered HbA1c, fasting glucose, body weight, and blood pressure compared with placebo while maintaining an acceptable safety profile in metformin-intolerant Asian adults with type 2 diabetes").
+- Mention reproducibility benefits (e.g., modular authoring, citation validation) if relevant to the manuscript narrative.
 
 ## Proposed Titles
-
-1. Drug A for Glycemic Control in Metformin-Intolerant Adults: A Randomized Trial
-2. Effect of Drug A on HbA1c in Metformin-Intolerant Asian Patients: Randomized Controlled Trial
-3. Drug A Versus Placebo for Blood Glucose Optimization in Metformin-Intolerant Diabetes: RCT
-4. Randomized Comparison of Drug A and Placebo for HbA1c Reduction in Asian Type 2 Diabetes
-5. Drug A Improves HbA1c Among Metformin-Intolerant Patients: Double-Blind Controlled Trial
+- Provide five title options that each include the intervention, comparator, primary outcome, target population, and study design. Examples of acceptable formats:
+  1. `[Intervention] for [Outcome] in [Population]: Randomized Controlled Trial`
+  2. `Effect of [Intervention] on [Outcome] in [Population]`
+  3. `[Intervention] versus [Comparator] for [Outcome]: [Study Design]`
+- Keep each title within 10–15 words, avoid abbreviations, and make sure the design type (e.g., randomized trial) is explicit.

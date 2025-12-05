@@ -1,21 +1,28 @@
 # Methods
 
 ## Study Design
-
-This investigator-initiated, randomized, double-blind, placebo-controlled clinical trial compared Drug A with placebo for glycemic control among metformin-intolerant adults with type 2 diabetes. A total of 150 participants were enrolled at Taipei Endocrine Research Hospital between January and December 2023 and followed for 12 weeks. The protocol was approved by the Taipei Endocrine Research Hospital Institutional Review Board (IRB-2022-1457), and all procedures conformed to the Declaration of Helsinki.
+- Specify the overall design (e.g., randomized, double-blind, placebo-controlled) and provide a one-sentence research overview.
+- Report total sample size, study duration, setting, and registry/IRB identifiers.
+- Confirm ethical approvals and adherence to international guidelines.
 
 ## Participants
-
-Eligible participants were adults aged 18–75 years with a confirmed diagnosis of type 2 diabetes for at least 1 year, HbA1c 7.5–10.0% at screening, and documented intolerance to metformin despite lifestyle counseling. Key inclusion criteria also required stable antihyperglycemic therapy for ≥8 weeks and an estimated glomerular filtration rate ≥60 mL/min/1.73 m². Exclusion criteria comprised pregnancy or lactation, severe renal or hepatic impairment, prior diabetic ketoacidosis, recent cardiovascular events, and participation in another interventional study within 3 months. Participants were randomized in a 1:1 ratio to Drug A or placebo using a centralized computer-generated sequence with variable block sizes, stratified by baseline HbA1c (<8.5% vs ≥8.5%). Allocation concealment was maintained with tamper-evident envelopes held by the investigational pharmacy, and both participants and study personnel were blinded to assignments.
+- Detail inclusion criteria (age range, confirmed T2DM, HbA1c thresholds, metformin intolerance, renal function, etc.).
+- List exclusion criteria (pregnancy, severe organ dysfunction, recent cardiovascular events, prior DKA, concurrent trials).
+- Describe recruitment setting, screening workflow, and informed consent procedures.
+- Explain randomization ratio, sequence generation, allocation concealment, and any stratification factors.
 
 ## Interventions
-
-Seventy-five participants were assigned to receive oral Drug A 500 mg twice daily, and seventy-five received a matching placebo twice daily. Dosing commenced immediately after randomization, continued for 12 weeks, and was administered with morning and evening meals. Study visits occurred at baseline and weeks 4, 8, and 12; drug accountability and adherence counseling were performed at each visit. The trial used a double-blind design; identical capsules, packaging, and labeling prevented identification of group allocation. Rescue therapy for symptomatic hyperglycemia followed prespecified thresholds and was adjudicated by blinded investigators.
+- Define experimental and control regimens: dosage, route, frequency, timing, packaging, blinding measures, and adherence support.
+- Indicate treatment duration, visit schedule, rescue therapy triggers, and concomitant-care policies.
+- Note blinding schema (e.g., double-blind) and accountability procedures.
 
 ## Outcome Measures
-
-The primary outcome was the change in HbA1c from baseline to week 12, measured by high-performance liquid chromatography at the central laboratory. Secondary outcomes included changes in fasting plasma glucose (FPG), body weight, systolic and diastolic blood pressure, patient-reported gastrointestinal symptoms, and the proportion of participants achieving HbA1c <7.0%. Safety outcomes encompassed the incidence of hypoglycemia (capillary glucose <70 mg/dL with or without symptoms) and other adverse events recorded at each visit and via weekly telephone surveillance. All measurements were obtained at baseline and at weeks 4, 8, and 12 unless otherwise specified.
+- State the primary endpoint (e.g., HbA1c change from baseline to week 12) and analytical method (HPLC vs lab-specific assay).
+- Enumerate secondary endpoints (fasting plasma glucose, body weight, blood pressure, responder rates, patient-reported outcomes, safety events).
+- Provide measurement time points, data-collection tools, and definitions of hypoglycemia/adverse events.
 
 ## Statistical Analysis
-
-Sample size calculations assumed a mean between-group difference of 0.9% in HbA1c change, a standard deviation of 1.0%, a two-sided α of 0.05, and 80% power, yielding 70 participants per arm; we enrolled 75 per arm to account for 7% attrition. Analyses were conducted using R version 4.3.1 (R Foundation for Statistical Computing). Continuous variables are summarized as mean ± SD and categorical variables as counts (percent). The primary analysis used analysis of covariance adjusting for baseline HbA1c and the stratification factor, with results reported as least-squares mean differences and 95% confidence intervals (CI). Secondary continuous outcomes were evaluated with mixed-effects models including fixed effects for group, visit, and their interaction, and random intercepts for participants. Binary outcomes were compared with logistic regression. All tests were two-tailed with statistical significance defined as p < 0.05. The primary analysis followed the intention-to-treat principle with last observation carried forward for missing week-12 values; sensitivity analyses using multiple imputation produced similar findings.
+- Describe sample-size calculation inputs (effect size, SD, α, power, anticipated attrition) and resulting target enrollment.
+- Identify software (e.g., R 4.3.1, SAS 9.4), summary statistics (mean ± SD, n [%]), and modeling approaches (ANCOVA, mixed-effects models, logistic regression).
+- Define significance thresholds, multiplicity controls, and sensitivity analyses.
+- Explain missing-data handling (intention-to-treat, last observation carried forward, multiple imputation) and any subgroup analyses.
