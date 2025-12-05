@@ -33,7 +33,7 @@ jobs:
           Rscript -e 'install.packages(c("httr","bib2df"))'
 
       - name: Render site
-        run: quarto render index.qmd
+        run: quarto render index.qmd --output-dir _site
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3

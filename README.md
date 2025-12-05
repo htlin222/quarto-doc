@@ -62,6 +62,6 @@ Quarto writes `index.html` and `index.docx` into `_site/` by default. Use `quart
 
 ## GitHub Pages Deployment
 
-- The workflow at `.github/workflows/quarto-gh-pages.yml` runs on every push to `main`. It checks out the repo, installs Quarto + R, installs `httr`/`bib2df`, renders `index.qmd`, and uploads `_site/` as the Pages artifact.
+- The workflow at `.github/workflows/quarto-gh-pages.yml` runs on every push to `main`. It checks out the repo, installs Quarto + R, installs `httr`/`bib2df`, renders `index.qmd` into `_site/`, and uploads that folder as the Pages artifact.
 - In the GitHub repo settings, enable Pages with **Source → GitHub Actions** so that `actions/deploy-pages` can publish from the workflow.
 - After the workflow succeeds, the `deploy` job publishes the generated site to the GitHub Pages environment and surfaces the live URL in the Actions log.
