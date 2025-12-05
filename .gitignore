@@ -7,6 +7,9 @@
 # Quarto build output
 .quarto/
 _site/
+index.html
+index.docx
+index_files/
 
 # Misc
 .DS_Store
