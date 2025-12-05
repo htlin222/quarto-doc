@@ -5,11 +5,11 @@
 - Provide counts for completed participants, withdrawals, and losses to follow-up separated by study arm.
 
 ## Baseline Characteristics
-- Summarize Table 1 findings (age, sex, BMI, HbA1c, diabetes duration, additional variables) with mean ± SD or n (%).
+- Summarize Table 1 findings (age, sex, BMI, HbA1c, diabetes duration, additional variables) with mean +/- SD or n (%).
 - Report p values demonstrating comparability between groups.
 
 ## Primary Outcome
-- Present the primary endpoint (e.g., HbA1c change) for each arm (mean ± SD) along with adjusted between-group difference, 95% CI, p value, and effect size (e.g., Cohen's d).
+- Present the primary endpoint (e.g., HbA1c change) for each arm (mean +/- SD) along with adjusted between-group difference, 95% CI, p value, and effect size (e.g., Cohen's d).
 - Mention responder proportions (e.g., HbA1c <7%) if prespecified.
 
 ## Secondary Outcomes

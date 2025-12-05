@@ -23,6 +23,6 @@
 
 ## Statistical Analysis
 - Describe sample-size calculation inputs (effect size, SD, α, power, anticipated attrition) and resulting target enrollment.
-- Identify software (e.g., R 4.3.1, SAS 9.4), summary statistics (mean ± SD, n [%]), and modeling approaches (ANCOVA, mixed-effects models, logistic regression).
+- Identify software (e.g., R 4.3.1, SAS 9.4), summary statistics (mean +/- SD, n [%]), and modeling approaches (ANCOVA, mixed-effects models, logistic regression).
 - Define significance thresholds, multiplicity controls, and sensitivity analyses.
 - Explain missing-data handling (intention-to-treat, last observation carried forward, multiple imputation) and any subgroup analyses.
