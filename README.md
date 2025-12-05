@@ -1,5 +1,9 @@
 # Quarto Document Template
 
+## About
+
+This repository packages a minimal Quarto project plus an R-based reference validator so you can prototype manuscripts, verify citations/DOIs, and publish directly to GitHub Pages. Use it as a starting point for new reports or as a sandbox for testing Quarto workflows.
+
 This repository is a minimal Quarto workspace with:
 
 - `index.qmd`: starter document wired to `references.bib` and the AMA CSL, including demo paragraphs that cite `@smith2023`, `@lee2022`, `@chen2021`, and `@garcia2020`.
