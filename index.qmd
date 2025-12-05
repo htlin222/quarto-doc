@@ -9,18 +9,16 @@ format:
   docx: default
 ---
 
-# Introduction
+{{< include sections/abstract.qmd >}}
 
-This Quarto document cites the reference by @smith2023 to confirm that the bibliography is wired correctly.
+{{< include sections/introduction.qmd >}}
 
-The helper script is handy even for small projects because it verifies that text citations such as [@lee2022] or grouped citations like [@smith2023; @chen2021] resolve before you render. You can also mention datasets inline, for example @garcia2020, and the bibliography will expand automatically.
+{{< include sections/methods.qmd >}}
 
-# Workflow Demo
+{{< include sections/results.qmd >}}
 
-1. Paste text into your `.qmd` files and cite normally (e.g., `@lee2022`).
-2. Run `Rscript helper.R` to ensure `references.bib` includes every cite key.
-3. Render with `quarto render index.qmd` to generate HTML + DOCX outputs that list the cited sources.
+{{< include sections/discussion.qmd >}}
 
-# Conclusion
+{{< include sections/conclusion.qmd >}}
 
-Rendering this file should produce an AMA-formatted citation list.
+{{< include sections/acknowledgements.qmd >}}

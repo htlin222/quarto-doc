@@ -1,0 +1,3 @@
+# Conclusion
+
+Rendering this file should produce an AMA-formatted citation list while simultaneously generating shareable HTML and DOCX outputs for downstream collaborators.

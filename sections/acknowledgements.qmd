@@ -1,0 +1,3 @@
+# Acknowledgements
+
+Thanks to the documentation tooling community for sharing citation styles, sample datasets, and validation patterns that inspired this streamlined Quarto starter.

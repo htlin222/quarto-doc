@@ -1,0 +1,3 @@
+# Methods
+
+The workflow begins by drafting prose in modular files, running `Rscript helper.R` to validate citations, and then rendering with Quarto to produce consistent HTML + DOCX deliverables. This mirrors reproducible-writing guidelines described by Lee and Kumar [@lee2022] and incorporates automated reference validation strategies similar to those proposed by Chen and Alvarez [@chen2021].

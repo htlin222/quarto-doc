@@ -7,6 +7,7 @@ This repository packages a minimal Quarto project plus an R-based reference vali
 This repository is a minimal Quarto workspace with:
 
 - `index.qmd`: starter document wired to `references.bib` and the AMA CSL, including demo paragraphs that cite `@smith2023`, `@lee2022`, `@chen2021`, and `@garcia2020`.
+- `sections/`: modular `.qmd` files (Abstract, Introduction, Methods, Results, Discussion, Conclusion, Acknowledgements) that `index.qmd` imports via Quarto include shortcodes.
 - `references.bib`: sample BibTeX database you can replace with your own sources.
 - `AMA.csl`: American Medical Association CSL style downloaded from Zotero.
 - `helper.R`: helper script that validates citations in `.qmd` files against the BibTeX file and optionally checks DOI resolvability.
@@ -17,6 +18,7 @@ This repository is a minimal Quarto workspace with:
 2. Clone or copy this folder to wherever you plan to write your document.
 3. Edit `index.qmd` (or add more `.qmd` files) with your content and cite using `@citekey` syntax.
 4. Replace `references.bib` with your bibliography. You can paste BibTeX entries directly into the file, one per reference.
+5. Edit the files under `sections/` to update each manuscript section; `index.qmd` automatically aggregates them in IMRaD order.
 
 ## Demo Content
 

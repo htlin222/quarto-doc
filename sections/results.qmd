@@ -1,0 +1,3 @@
+# Results
+
+Running the helper script reports the total cite keys found in each module, flags any missing entries, and confirms DOI reachability. For this demo all citations resolve successfully, so rendering produces an AMA-style reference list and exposes the published HTML at the GitHub Pages URL while still capturing DOCX exports locally.

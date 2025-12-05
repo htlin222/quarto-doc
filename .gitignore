@@ -10,6 +10,11 @@ _site/
 index.html
 index.docx
 index_files/
+sections/*.html
+sections/*.docx
+sections/*_files/
 
 # Misc
 .DS_Store
+
+/.quarto/

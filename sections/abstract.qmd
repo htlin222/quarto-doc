@@ -1,0 +1,3 @@
+# Abstract
+
+This demonstration summarizes how modular Quarto sections, validated references, and AMA formatting combine to keep manuscripts reproducible from the outset [@smith2023]. Each section lives in its own `.qmd` file and is stitched together through shortcodes for a clean authoring workflow.

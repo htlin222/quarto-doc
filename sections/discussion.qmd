@@ -1,0 +1,3 @@
+# Discussion
+
+Modularizing content encourages teams to collaborate on specific sections without merge conflicts, and it keeps each IMRaD component concise. The dataset citation @garcia2020 shows how supporting materials remain tied to the narrative, and DOI validation prevents broken references before peer review.
