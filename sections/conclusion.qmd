@@ -1,3 +1,11 @@
 # Conclusion
 
-Rendering this file should produce an AMA-formatted citation list while simultaneously generating shareable HTML and DOCX outputs for downstream collaborators.
+Drug A lowered HbA1c, fasting glucose, body weight, and blood pressure more than placebo while preserving an acceptable safety profile in metformin-intolerant Asian adults with type 2 diabetes. Embedding citation validation and modular authoring into the workflow ensures that subsequent manuscript iterations remain reproducible and ready for dissemination across Quarto outputs.
+
+## Proposed Titles
+
+1. Drug A for Glycemic Control in Metformin-Intolerant Adults: A Randomized Trial
+2. Effect of Drug A on HbA1c in Metformin-Intolerant Asian Patients: Randomized Controlled Trial
+3. Drug A Versus Placebo for Blood Glucose Optimization in Metformin-Intolerant Diabetes: RCT
+4. Randomized Comparison of Drug A and Placebo for HbA1c Reduction in Asian Type 2 Diabetes
+5. Drug A Improves HbA1c Among Metformin-Intolerant Patients: Double-Blind Controlled Trial

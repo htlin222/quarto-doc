@@ -1,3 +1,21 @@
 # Results
 
-Running the helper script reports the total cite keys found in each module, flags any missing entries, and confirms DOI reachability. For this demo all citations resolve successfully, so rendering produces an AMA-style reference list and exposes the published HTML at the GitHub Pages URL while still capturing DOCX exports locally.
+## Participant Flow
+
+A total of 200 individuals were screened, of whom 30 failed to meet inclusion criteria and 20 declined participation (Figure 1). The remaining 150 participants were randomized equally to Drug A (n = 75) or placebo (n = 75). Overall, 142 participants (94.7%) completed the 12-week intervention; five participants (three Drug A, two placebo) were lost to follow-up, and three (two Drug A, one placebo) withdrew consent before the week-12 visit. All randomized participants were included in the intention-to-treat analysis.
+
+## Baseline Characteristics
+
+Baseline characteristics were comparable between groups (Table 1). Mean age was 55.2 ± 8.3 years in the Drug A group and 54.8 ± 7.9 years in the placebo group (p = 0.72), and 48% versus 52% were men (p = 0.65). Body mass index averaged 28.5 ± 3.2 versus 28.1 ± 3.5 kg/m² (p = 0.58), baseline HbA1c was 8.2 ± 0.9% versus 8.3 ± 0.8% (p = 0.76), and diabetes duration was 6.5 ± 3.2 versus 6.8 ± 3.5 years (p = 0.69). Blood pressure, lipid profiles, and concomitant therapies also showed no significant group differences.
+
+## Primary Outcome
+
+Drug A produced a greater HbA1c reduction from baseline to week 12 than placebo (−1.2 ± 0.5% vs −0.3 ± 0.4%). The adjusted between-group difference was −0.9% (95% CI, −1.1 to −0.7; p < 0.001), corresponding to a Cohen's d of 1.8. Seventy-two percent of Drug A recipients achieved HbA1c <7.0% compared with 28% of placebo recipients (p < 0.001).
+
+## Secondary Outcomes
+
+Drug A led to greater improvements in FPG (−32 ± 15 vs −8 ± 14 mg/dL; p < 0.001), body weight (−2.1 ± 1.4 vs −0.5 ± 1.2 kg; p < 0.001), and systolic blood pressure (−4.6 ± 6.8 vs −1.2 ± 7.0 mm Hg; p = 0.02). Diastolic blood pressure decreased modestly in both arms (−2.1 ± 5.9 vs −0.8 ± 6.1 mm Hg; p = 0.18). Patient-reported gastrointestinal discomfort scores improved similarly between groups (p = 0.64). These outcomes are summarized in Table 2.
+
+## Adverse Events
+
+Hypoglycemia occurred in 12% (9/75) of Drug A recipients and 4% (3/75) of placebo recipients (p = 0.03). Gastrointestinal discomfort was reported by 8% (6/75) versus 5% (4/75) (p = 0.52). No serious adverse events or deaths occurred in either group. All hypoglycemic episodes were mild, resolved with oral carbohydrate intake, and did not require hospitalization.

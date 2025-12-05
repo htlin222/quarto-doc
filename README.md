@@ -22,8 +22,8 @@ This repository is a minimal Quarto workspace with:
 
 ## Demo Content
 
-- The Introduction shows inline citations and grouped citations so you can see how AMA formatting looks.
-- The Workflow Demo section walks through the helper script + render process.
+- The Introduction demonstrates a full CARS-style narrative with inline and grouped citations.
+- The Methods, Results, and Discussion modules illustrate how to answer structured clinical-writing prompts using reproducible text.
 - `references.bib` ships with four sample entries that correspond to the cite keys used in `index.qmd`.
 - Use this setup to test the helper script before swapping in your own text and bibliography.
 

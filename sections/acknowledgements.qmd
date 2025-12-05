@@ -1,3 +1,17 @@
 # Acknowledgements
 
-Thanks to the documentation tooling community for sharing citation styles, sample datasets, and validation patterns that inspired this streamlined Quarto starter.
+We thank the clinical research coordinators and laboratory technologists at Taipei Endocrine Research Hospital for their meticulous data collection, as well as the participants for their sustained engagement. The study team also appreciates the institutional biostatistics core for monitoring data quality.
+
+## AI Usage Disclosure
+
+**Short form:** ChatGPT (GPT-4, OpenAI; accessed November 2025) was used to draft preliminary text for the Introduction, Discussion, and Abstract based on structured prompts provided by the authors. All AI-generated material was critically reviewed, extensively revised, and approved by the authors, who retain full responsibility for the published content.
+
+**Detailed form:** ChatGPT (GPT-4, OpenAI; November 2025 access) was employed to improve grammar, refine phrasing, and generate initial drafts for the Introduction, Methods, Results, Discussion, and Abstract after we supplied structured prompts containing study data. The authors verified every output against original data, performed substantive edits to ensure accuracy and tone, and confirmed that no proprietary or confidential information was introduced. The tool was not used for study design, data analysis, or interpretation. Final responsibility for the integrity of the manuscript rests with the authors.
+
+## 黃金法則提醒
+
+1. **AI 是助手，你是作者：** AI 不能列為作者，所有內容都必須經過人工審查與修訂，作者對出版內容負完全責任。
+2. **透明揭露是必須的：** 必須清楚揭露使用的 AI 工具與用途，並遵循各期刊的具體要求。
+3. **核心工作不可外包：** 研究設計、數據分析與結果詮釋必須由研究者完成，AI 僅能協助語言與結構。
+4. **避免已知風險：** 不可直接使用 AI 生成的參考文獻，所有臨床資訊須自行核實，警惕 AI 可能產生的虛構內容。
+5. **保存完整記錄：** 保存所有 Prompt、AI 回應與修改紀錄，在面對審查或質疑時可作為證據。
