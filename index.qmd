@@ -1,0 +1,26 @@
+---
+title: "Project Notes"
+author: ""
+date: "2024-01-01"
+bibliography: references.bib
+csl: AMA.csl
+format:
+  html: default
+  docx: default
+---
+
+# Introduction
+
+This Quarto document cites the reference by @smith2023 to confirm that the bibliography is wired correctly.
+
+The helper script is handy even for small projects because it verifies that text citations such as [@lee2022] or grouped citations like [@smith2023; @chen2021] resolve before you render. You can also mention datasets inline, for example @garcia2020, and the bibliography will expand automatically.
+
+# Workflow Demo
+
+1. Paste text into your `.qmd` files and cite normally (e.g., `@lee2022`).
+2. Run `Rscript helper.R` to ensure `references.bib` includes every cite key.
+3. Render with `quarto render index.qmd` to generate HTML + DOCX outputs that list the cited sources.
+
+# Conclusion
+
+Rendering this file should produce an AMA-formatted citation list.

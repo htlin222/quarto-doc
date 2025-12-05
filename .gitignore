@@ -1,0 +1,12 @@
+# Quarto / R build artifacts
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# Quarto build output
+.quarto/
+_site/
+
+# Misc
+.DS_Store
