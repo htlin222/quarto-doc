@@ -64,4 +64,21 @@ Quarto writes `index.html` and `index.docx` into `_site/` by default. Use `quart
 
 - The workflow at `.github/workflows/quarto-gh-pages.yml` runs on every push to `main`. It checks out the repo, installs Quarto + R, installs `httr`/`bib2df`, renders `index.qmd` into `_site/`, and uploads that folder as the Pages artifact.
 - In the GitHub repo settings, enable Pages with **Source → GitHub Actions** so that `actions/deploy-pages` can publish from the workflow.
-- After the workflow succeeds, the `deploy` job publishes the generated site to the GitHub Pages environment and surfaces the live URL in the Actions log.
+- After the workflow succeeds, the `deploy` job publishes the generated site to the GitHub Pages environment and surfaces the live URL in the Actions log (https://htlin222.github.io/quarto-doc/).
+- You can always browse the published document at https://htlin222.github.io/quarto-doc/.
+
+## Helper Script Quick Reference
+
+- Validate everything automatically (search for all `.qmd` files + `references.bib`):
+  ```bash
+  Rscript helper.R
+  ```
+- Validate specific files:
+  ```bash
+  Rscript helper.R paper.qmd references.bib
+  ```
+- From an interactive R session:
+  ```r
+  source("helper.R")
+  check_refs(check_doi = TRUE)  # set FALSE to skip DOI checks
+  ```
