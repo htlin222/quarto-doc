@@ -1,0 +1,87 @@
+======================================================================
+SUBGROUP ANALYSIS RESULTS
+Disease-Free Survival by Pre-specified Subgroups
+Generated: 2025-12-06 23:21:52.196832
+======================================================================
+
+METHODS
+-------
+Cox proportional hazards regression estimated hazard ratios (HR)
+and 95% confidence intervals for exercise vs control within subgroups.
+Interaction p-values from likelihood ratio tests.
+
+======================================================================
+OVERALL RESULT
+======================================================================
+N = 1000 patients
+Events = 554
+HR = 0.87 (95% CI: 0.74 - 1.03)
+P-value = 0.1057
+
+======================================================================
+SUBGROUP RESULTS
+======================================================================
+
+Age:
+----
+  50-64 years: HR = 0.96 (0.76 - 1.20), N = 506, Events = 297
+  <50 years: HR = 0.80 (0.61 - 1.05), N = 399, Events = 209
+  >=65 years: HR = 0.74 (0.42 - 1.31), N = 95, Events = 48
+  Interaction p-value: 0.5088
+
+Menopause Status:
+-----------------
+  postmenopausal: HR = 0.91 (0.74 - 1.14), N = 576, Events = 323
+  premenopausal: HR = 0.84 (0.64 - 1.09), N = 433, Events = 226
+  Interaction p-value: 0.6122
+
+Tumor Stage:
+------------
+  III: HR = 0.71 (0.48 - 1.06), N = 140, Events = 101
+  I: HR = 0.92 (0.70 - 1.22), N = 413, Events = 202
+  II: HR = 0.86 (0.67 - 1.10), N = 447, Events = 251
+  Interaction p-value: 0.5444
+
+Hormone Receptor Status:
+------------------------
+  HR+: HR = 0.92 (0.76 - 1.12), N = 821, Events = 416
+  HR-: HR = 0.66 (0.47 - 0.93), N = 179, Events = 138
+  Interaction p-value: 0.0924
+
+HER2 Status:
+------------
+  negative: HR = 0.82 (0.68 - 0.99), N = 790, Events = 438
+  positive: HR = 1.08 (0.75 - 1.55), N = 210, Events = 116
+  Interaction p-value: 0.2031
+
+BMI:
+----
+  BMI <=25: HR = 0.79 (0.60 - 1.02), N = 407, Events = 228
+  BMI >25: HR = 0.94 (0.76 - 1.17), N = 593, Events = 326
+  Interaction p-value: 0.2901
+
+Baseline Physical Activity:
+---------------------------
+  High baseline MVPA: HR = 0.81 (0.64 - 1.03), N = 500, Events = 283
+  Low baseline MVPA: HR = 0.93 (0.74 - 1.19), N = 500, Events = 271
+  Interaction p-value: 0.4292
+
+Chemotherapy Regimen:
+---------------------
+  Other: HR = 1.04 (0.66 - 1.66), N = 107, Events = 72
+  Anthracycline-based: HR = 0.89 (0.72 - 1.10), N = 633, Events = 332
+  TC regimen: HR = 0.81 (0.59 - 1.12), N = 260, Events = 150
+  Interaction p-value: 0.7400
+
+======================================================================
+OS SUBGROUP SUMMARY
+======================================================================
+Overall OS: HR = 0.82 (95% CI: 0.67 - 1.01)
+
+======================================================================
+FILES GENERATED
+======================================================================
+- output/figures/forest_plot_dfs.png
+- output/figures/forest_plot_dfs.pdf
+- output/tables/subgroup_analysis_dfs.csv
+======================================================================

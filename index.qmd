@@ -1,17 +1,17 @@
-{{< include sections/abstract.qmd >}}
+{{< include manuscripts/abstract.qmd >}}
 
-{{< include sections/introduction.qmd >}}
+{{< include manuscripts/introduction.qmd >}}
 
-{{< include sections/methods.qmd >}}
+{{< include manuscripts/methods.qmd >}}
 
-{{< include sections/results.qmd >}}
+{{< include manuscripts/results.qmd >}}
 
-{{< include sections/discussion.qmd >}}
+{{< include manuscripts/discussion.qmd >}}
 
-{{< include sections/conclusion.qmd >}}
+{{< include manuscripts/conclusion.qmd >}}
 
-{{< include sections/acknowledgements.qmd >}}
+{{< include manuscripts/acknowledgements.qmd >}}
 
-{{< include sections/tables.qmd >}}
+{{< include manuscripts/tables.qmd >}}
 
-{{< include sections/figures.qmd >}}
+{{< include manuscripts/figures.qmd >}}

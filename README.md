@@ -52,7 +52,7 @@ The script prints:
 
 ## Render the Document
 
-After the references pass validation, render the Quarto project (the front matter already requests both HTML and DOCX outputs):
+After the references pass validation, render the Quarto project (the front matter already requests both HTML and DOCX output):
 
 ```bash
 quarto render index.qmd

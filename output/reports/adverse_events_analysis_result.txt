@@ -1,0 +1,27 @@
+====================================================================== 
+ADVERSE EVENTS ANALYSIS RESULTS
+====================================================================== 
+
+ADVERSE EVENT SUMMARY BY TREATMENT GROUP
+-------------------------------------------------- 
+
+Control Group (N = 505)
+  Any AE: 166 (32.9%)
+  Musculoskeletal: 45 (8.9%)
+  Cardiovascular: 21 (4.2%)
+  Lymphedema: 57 (11.3%)
+  Grade 3+: 7 (1.4%)
+
+Exercise Group (N = 495)
+  Any AE: 251 (50.7%)
+  Musculoskeletal: 150 (30.3%)
+  Cardiovascular: 23 (4.6%)
+  Lymphedema: 67 (13.5%)
+  Grade 3+: 5 (1.0%)
+
+STATISTICAL COMPARISONS
+-------------------------------------------------- 
+
+Any AE: Chi-square = 31.98, p = 0.0000
+Musculoskeletal AE: Chi-square = 71.52, p = 0.0000
+Lymphedema: Chi-square = 0.97, p = 0.3258

@@ -1,0 +1,26 @@
+====================================================================== 
+ADHERENCE ANALYSIS RESULTS (Exercise Group Only)
+====================================================================== 
+
+ADHERENCE SUMMARY
+---------------------------------------- 
+N = 495 patients in exercise group
+
+Phase 1 Behavior Sessions (out of 12):
+  Mean: 8.0 (SD: 2.5)
+  Adherence: 66.8%
+
+Phase 1 Mandatory Exercise (out of 12):
+  Mean: 7.8 (SD: 2.5)
+  Adherence: 65.4%
+
+Phase 2 Behavior Sessions (out of 12):
+  Mean: 7.3 (SD: 2.7)
+  Adherence: 61.0%
+
+Phase 3 Behavior Sessions (out of 24):
+  Mean: 13.0 (SD: 5.4)
+  Adherence: 54.1%
+
+Overall Adherence:
+  Mean: 60.3% (SD: 15.6%)

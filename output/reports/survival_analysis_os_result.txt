@@ -1,0 +1,55 @@
+====================================================================== 
+OVERALL SURVIVAL ANALYSIS RESULTS
+====================================================================== 
+
+1. KAPLAN-MEIER ANALYSIS
+---------------------------------------- 
+Call: survfit(formula = Surv(os_time, os_event) ~ treatment_group, 
+    data = surv_data)
+
+                treatment_group=Control 
+ time n.risk n.event survival std.err lower 95% CI upper 95% CI
+   12    444      58    0.885  0.0142        0.858        0.913
+   24    362      75    0.734  0.0198        0.696        0.774
+   36    309      47    0.638  0.0216        0.597        0.682
+
+                treatment_group=Exercise 
+ time n.risk n.event survival std.err lower 95% CI upper 95% CI
+   12    447      40    0.919  0.0123        0.895        0.943
+   24    374      66    0.782  0.0187        0.746        0.820
+   36    326      41    0.696  0.0210        0.656        0.738
+
+
+2. LOG-RANK TEST
+---------------------------------------- 
+Call:
+survdiff(formula = Surv(os_time, os_event) ~ treatment_group, 
+    data = surv_data)
+
+                           N Observed Expected (O-E)^2/E (O-E)^2/V
+treatment_group=Control  505      203      185      1.78       3.5
+treatment_group=Exercise 495      172      190      1.73       3.5
+
+ Chisq= 3.5  on 1 degrees of freedom, p= 0.06 
+
+3. COX PROPORTIONAL HAZARDS MODEL (Stratified)
+---------------------------------------- 
+Call:
+coxph(formula = Surv(os_time, os_event) ~ treatment_group + strata(stratification_stage, 
+    stratification_bmi, stratification_menopause), data = surv_data)
+
+  n= 1000, number of events= 375 
+
+                           coef exp(coef) se(coef)      z Pr(>|z|)  
+treatment_groupExercise -0.2115    0.8094   0.1041 -2.033   0.0421 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                        exp(coef) exp(-coef) lower .95 upper .95
+treatment_groupExercise    0.8094      1.236      0.66    0.9925
+
+Concordance= 0.524  (se = 0.015 )
+Likelihood ratio test= 4.15  on 1 df,   p=0.04
+Wald test            = 4.13  on 1 df,   p=0.04
+Score (logrank) test = 4.15  on 1 df,   p=0.04
+
