@@ -1,54 +1,38 @@
 ## Figures
 
-{{< placeholder >}}
 <!--
-Instructions: Replace placeholders below with your actual figure paths and captions.
+TEMPLATE INSTRUCTIONS:
+Replace this comment block with your actual figures.
 Supported formats: PNG, JPG, PDF, SVG
--->
 
-### Figure 1: [FIGURE_1_TITLE]
+Example figure syntax:
 
-![[FIGURE_1_CAPTION]](figures/[FIGURE_1_FILENAME]){#fig-1 width="[WIDTH]%"}
+### Figure 1: Your Figure Title
 
-<!-- Alternative: For figures generated from code -->
+![Your caption here](figures/your-figure.png){#fig-1 width="80%"}
+
+Example for R-generated figures:
+
 ```{r}
-#| label: fig-1-code
-#| fig-cap: "[FIGURE_1_CAPTION]"
+#| label: fig-example
+#| fig-cap: "Your caption here"
 #| echo: false
-#| eval: false
 
-# [INSERT_R_CODE_FOR_FIGURE_1]
+library(ggplot2)
+ggplot(data, aes(x = var1, y = var2)) +
+  geom_point() +
+  theme_minimal()
 ```
 
-### Figure 2: [FIGURE_2_TITLE]
+Example multi-panel figure:
 
-![[FIGURE_2_CAPTION]](figures/[FIGURE_2_FILENAME]){#fig-2 width="[WIDTH]%"}
+::: {#fig-panels layout-ncol=2}
 
-### Figure 3: [FIGURE_3_TITLE]
+![Panel A](figures/panel-a.png){#fig-panels-a}
 
-::: {#fig-3 layout-ncol=2}
+![Panel B](figures/panel-b.png){#fig-panels-b}
 
-![Panel A: [PANEL_A_DESCRIPTION]](figures/[PANEL_A_FILENAME]){#fig-3a}
-
-![Panel B: [PANEL_B_DESCRIPTION]](figures/[PANEL_B_FILENAME]){#fig-3b}
-
-[FIGURE_3_CAPTION]
+Combined figure caption
 :::
 
-### Figure 4: [FIGURE_4_TITLE]
-
-```{r}
-#| label: fig-4
-#| fig-cap: "[FIGURE_4_CAPTION]"
-#| echo: false
-#| eval: false
-
-# [INSERT_R_CODE_FOR_FIGURE_4]
-# Example:
-# library(ggplot2)
-# ggplot(data, aes(x = [X_VAR], y = [Y_VAR])) +
-#   geom_point() +
-#   theme_minimal()
-```
-
-{{< /placeholder >}}
+-->
