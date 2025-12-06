@@ -3,3 +3,11 @@ project:
 format:
   html: default
   docx: default
+  typst:
+    # 這裡是 Typst 的 citation engine
+    bibliographystyle: ama.csl    # 路徑相對於專案 root
+bibliography: references.bib
+csl: AMA.csl
+title: "Project Notes"
+author: ""
+date: "2025-12-07"

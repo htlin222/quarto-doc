@@ -9,6 +9,7 @@
 _site/
 index.html
 index.docx
+index.pdf
 index_files/
 sections/*.html
 sections/*.docx

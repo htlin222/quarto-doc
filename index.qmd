@@ -1,14 +1,3 @@
----
-title: "Project Notes"
-author: ""
-date: "2024-01-01"
-bibliography: references.bib
-csl: AMA.csl
-format:
-  html: default
-  docx: default
----
-
 {{< include sections/abstract.qmd >}}
 
 {{< include sections/introduction.qmd >}}
