@@ -28,9 +28,9 @@ jobs:
         with:
           use-public-rspm: true
 
-      - name: Install R packages for helper script
+      - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("httr","bib2df"))'
+          Rscript -e 'install.packages(c("knitr", "rmarkdown", "httr", "bib2df"))'
 
       - name: Render site
         run: quarto render index.qmd --output-dir _site
