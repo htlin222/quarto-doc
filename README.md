@@ -74,6 +74,47 @@ Quarto writes `index.html` and `index.docx` into `_site/` by default. Use `quart
 - After the workflow succeeds, the `deploy` job publishes the generated site to the GitHub Pages environment and surfaces the live URL in the Actions log (https://htlin222.github.io/quarto-doc/).
 - You can always browse the published document at https://htlin222.github.io/quarto-doc/.
 
+## Importing External R Scripts
+
+You can include external R scripts in your `.qmd` files using the `file` chunk option. This keeps your analysis code modular and reusable.
+
+### Basic Usage
+
+````qmd
+```{r, file='scripts/analysis.R'}
+```
+````
+
+This will read and execute the contents of `scripts/analysis.R` as if the code were written directly in the chunk.
+
+### Multiple Files
+
+You can also source multiple files in a single chunk:
+
+````qmd
+```{r, file=c('scripts/setup.R', 'scripts/analysis.R')}
+```
+````
+
+### Important: Project Execute Directory
+
+For file paths to resolve correctly from the project root (rather than relative to each `.qmd` file's location), this project uses:
+
+```yaml
+# _quarto.yml
+project:
+  type: default # or manuscript, book, website, etc.
+  execute-dir: project
+```
+
+With `execute-dir: project`, all R code chunks execute with the working directory set to the **project root**. This means:
+
+- `file='scripts/data.R'` looks for `<project-root>/scripts/data.R`
+- `read.csv('data/input.csv')` looks for `<project-root>/data/input.csv`
+- Paths work consistently regardless of which subdirectory your `.qmd` file is in
+
+Without this setting, Quarto defaults to `execute-dir: file`, where paths are relative to each `.qmd` file's directory—which can cause confusion when `.qmd` files are in subdirectories like `sections/`.
+
 ## Helper Script Quick Reference
 
 - Validate everything automatically (search for all `.qmd` files + `references.bib`):
