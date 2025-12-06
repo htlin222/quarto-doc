@@ -11,3 +11,7 @@
 {{< include sections/conclusion.qmd >}}
 
 {{< include sections/acknowledgements.qmd >}}
+
+{{< include sections/tables.qmd >}}
+
+{{< include sections/figures.qmd >}}

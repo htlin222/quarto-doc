@@ -1,0 +1,54 @@
+## Figures
+
+{{< placeholder >}}
+<!--
+Instructions: Replace placeholders below with your actual figure paths and captions.
+Supported formats: PNG, JPG, PDF, SVG
+-->
+
+### Figure 1: [FIGURE_1_TITLE]
+
+![[FIGURE_1_CAPTION]](figures/[FIGURE_1_FILENAME]){#fig-1 width="[WIDTH]%"}
+
+<!-- Alternative: For figures generated from code -->
+```{r}
+#| label: fig-1-code
+#| fig-cap: "[FIGURE_1_CAPTION]"
+#| echo: false
+#| eval: false
+
+# [INSERT_R_CODE_FOR_FIGURE_1]
+```
+
+### Figure 2: [FIGURE_2_TITLE]
+
+![[FIGURE_2_CAPTION]](figures/[FIGURE_2_FILENAME]){#fig-2 width="[WIDTH]%"}
+
+### Figure 3: [FIGURE_3_TITLE]
+
+::: {#fig-3 layout-ncol=2}
+
+![Panel A: [PANEL_A_DESCRIPTION]](figures/[PANEL_A_FILENAME]){#fig-3a}
+
+![Panel B: [PANEL_B_DESCRIPTION]](figures/[PANEL_B_FILENAME]){#fig-3b}
+
+[FIGURE_3_CAPTION]
+:::
+
+### Figure 4: [FIGURE_4_TITLE]
+
+```{r}
+#| label: fig-4
+#| fig-cap: "[FIGURE_4_CAPTION]"
+#| echo: false
+#| eval: false
+
+# [INSERT_R_CODE_FOR_FIGURE_4]
+# Example:
+# library(ggplot2)
+# ggplot(data, aes(x = [X_VAR], y = [Y_VAR])) +
+#   geom_point() +
+#   theme_minimal()
+```
+
+{{< /placeholder >}}

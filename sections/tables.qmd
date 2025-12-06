@@ -1,0 +1,39 @@
+## Tables
+
+{{< placeholder >}}
+<!--
+Instructions: Replace placeholders below with your actual table data.
+Each table follows a consistent structure for easy customization.
+-->
+
+### Table 1: [TABLE_1_TITLE]
+
+| [COLUMN_1] | [COLUMN_2] | [COLUMN_3] | [COLUMN_4] |
+|------------|------------|------------|------------|
+| [ROW_1_DATA] | [VALUE] | [VALUE] | [VALUE] |
+| [ROW_2_DATA] | [VALUE] | [VALUE] | [VALUE] |
+| [ROW_3_DATA] | [VALUE] | [VALUE] | [VALUE] |
+
+: [TABLE_1_CAPTION] {#tbl-1}
+
+### Table 2: [TABLE_2_TITLE]
+
+| [VARIABLE] | [N] | [MEAN_SD] | [MEDIAN_IQR] | [P_VALUE] |
+|------------|-----|-----------|--------------|-----------|
+| [VAR_1] | [N] | [MEAN] ± [SD] | [MEDIAN] ([IQR]) | [P] |
+| [VAR_2] | [N] | [MEAN] ± [SD] | [MEDIAN] ([IQR]) | [P] |
+| [VAR_3] | [N] | [MEAN] ± [SD] | [MEDIAN] ([IQR]) | [P] |
+
+: [TABLE_2_CAPTION] {#tbl-2}
+
+### Table 3: [TABLE_3_TITLE]
+
+| [CHARACTERISTIC] | [GROUP_1] (n=[N1]) | [GROUP_2] (n=[N2]) | [TOTAL] (N=[N]) |
+|------------------|--------------------|--------------------|-----------------|
+| [CHAR_1], n (%) | [N] ([%]) | [N] ([%]) | [N] ([%]) |
+| [CHAR_2], n (%) | [N] ([%]) | [N] ([%]) | [N] ([%]) |
+| [CHAR_3], mean ± SD | [MEAN] ± [SD] | [MEAN] ± [SD] | [MEAN] ± [SD] |
+
+: [TABLE_3_CAPTION] {#tbl-3}
+
+{{< /placeholder >}}
