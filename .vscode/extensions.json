@@ -6,6 +6,7 @@
     "charliermarsh.ruff",
     "code-inspect.vscode-flowr",
     "github.vscode-pull-request-github",
+    "tekumara.typos-vscode",
     "jeff-hykin.better-csv-syntax",
     "meta.pyrefly",
     "phil294.git-log--graph",
