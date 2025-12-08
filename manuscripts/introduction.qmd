@@ -1,7 +1,3 @@
----
-bibliography: references.bib
----
-
 # Introduction
 
 ## Establishing Territory
@@ -17,4 +13,4 @@ bibliography: references.bib
 ## Occupying the Niche
 - Introduce the study aim with a sentence like "The aim of this study was to..." covering population, intervention, comparator, and timeframe.
 - Mention any prespecified hypothesis (e.g., Drug A would lower HbA1c ≥0.5% more than placebo) and anticipated safety profile.
-- Close with the anticipated significance for clinicians, policy makers, or future research communities, optionally referencing digital workflow advantages described in [@garcia2020]. 
+- Close with the anticipated significance for clinicians, policy makers, or future research communities, optionally referencing digital workflow advantages described in [@garcia2020].
