@@ -1,4 +1,4 @@
-# Quarto Document Template
+# Quarto Document Template ✨
 
 ## About
 
